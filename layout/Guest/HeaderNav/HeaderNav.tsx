@@ -25,10 +25,10 @@ const MOCK_DATA = [
     link: 'https://6564d1b09deea091e3ec0769-jsxuvbmjcr.chromatic.com/?path=/docs/welcome--docs',
     label: 'components',
   },
-  // {
-  //   link: 'mailto:kelvin.kiprop96@gmail.com',
-  //   label: 'support',
-  // },
+  {
+    link: 'mailto:kelvin.kiprop96@gmail.com',
+    label: 'support',
+  },
   {
     link: PATH_DOCS.root,
     label: 'documentation',

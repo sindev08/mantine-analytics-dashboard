@@ -16,7 +16,7 @@ function Tasks() {
   return (
     <>
       <>
-        <title>Tasks | Clarissen</title>
+        <title>Tasks | DesignSparx</title>
       </>
       <Container fluid>
         <Stack gap="lg">

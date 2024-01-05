@@ -28,7 +28,6 @@ import {
   IconUserCode,
   IconUserPlus,
   IconUserShield,
-  IconUsers,
   IconX,
 } from '@tabler/icons-react';
 import { Logo, UserProfileButton } from '@/components';
@@ -62,8 +61,7 @@ const mockdata = [
     links: [
       { label: 'Profile', icon: IconUserCircle, link: PATH_APPS.profile },
       { label: 'Settings', icon: IconUserCode, link: PATH_APPS.settings },
-      // { label: 'Chat', icon: IconMessages, link: PATH_APPS.chat },
-      { label: 'Manage User', icon: IconUsers, link: PATH_APPS.manageUser },
+      { label: 'Chat', icon: IconMessages, link: PATH_APPS.chat },
       { label: 'Projects', icon: IconBriefcase, link: PATH_APPS.projects },
       { label: 'Orders', icon: IconListDetails, link: PATH_APPS.orders },
       {
@@ -94,33 +92,33 @@ const mockdata = [
         icon: IconRotateRectangle,
         link: PATH_AUTH.passwordReset,
       },
-      // { label: 'Clerk', icon: IconUserShield, link: PATH_AUTH.clerk },
-      // { label: 'Auth0', icon: IconBrandAuth0, link: PATH_AUTH.auth0 },
+      { label: 'Clerk', icon: IconUserShield, link: PATH_AUTH.clerk },
+      { label: 'Auth0', icon: IconBrandAuth0, link: PATH_AUTH.auth0 },
     ],
   },
-  // {
-  //   title: 'Pages',
-  //   links: [
-  //     { label: 'Pricing', icon: IconReceipt2, link: PATH_PAGES.pricing },
-  //     { label: 'Blank Page', icon: IconLayersSubtract, link: PATH_PAGES.blank },
-  //   ],
-  // },
-  // {
-  //   title: 'Documentation',
-  //   links: [
-  //     {
-  //       label: 'Getting started',
-  //       icon: IconLifebuoy,
-  //       link: PATH_DOCS.root,
-  //     },
-  //     {
-  //       label: 'Documentation',
-  //       icon: IconBook2,
-  //       link: PATH_DOCS.root,
-  //     },
-  //     { label: 'Changelog', icon: IconList },
-  //   ],
-  // },
+  {
+    title: 'Pages',
+    links: [
+      { label: 'Pricing', icon: IconReceipt2, link: PATH_PAGES.pricing },
+      { label: 'Blank Page', icon: IconLayersSubtract, link: PATH_PAGES.blank },
+    ],
+  },
+  {
+    title: 'Documentation',
+    links: [
+      {
+        label: 'Getting started',
+        icon: IconLifebuoy,
+        link: PATH_DOCS.root,
+      },
+      {
+        label: 'Documentation',
+        icon: IconBook2,
+        link: PATH_DOCS.root,
+      },
+      { label: 'Changelog', icon: IconList },
+    ],
+  },
 ];
 
 type NavigationProps = {

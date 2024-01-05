@@ -1,3 +1,4 @@
+import classes from './Logo.module.css';
 import {
   Group,
   Text,
@@ -5,7 +6,7 @@ import {
   UnstyledButtonProps,
 } from '@mantine/core';
 import Link from 'next/link';
-import classes from './Logo.module.css';
+import Image from 'next/image';
 
 type LogoProps = {
   href?: string;
@@ -20,13 +21,13 @@ const Logo = ({ href, ...others }: LogoProps) => {
       {...others}
     >
       <Group gap="xs">
-        {/* <Image
-          src="/logo.png"
+        <Image
+          src="/logo-no-background.png"
           height={24}
           width={24}
           alt="design sparx logo"
-        /> */}
-        <Text fw={700}>Clarissen</Text>
+        />
+        <Text fw={700}>Mantine admin</Text>
       </Group>
     </UnstyledButton>
   );

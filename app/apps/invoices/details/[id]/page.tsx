@@ -40,7 +40,7 @@ function InvoiceDetails({ params }: { params: { id: string } }) {
       <>
         <title>
           Invoice - {selectedData ? selectedData?.id : 'No invoice found'} |
-          Clarissen
+          DesignSparx
         </title>
         <meta
           name="description"

@@ -65,7 +65,7 @@ const FooterNav = () => {
         href={PATH_GITHUB.org}
         target="_blank"
       >
-        &copy;&nbsp;{new Date().getFullYear()}&nbsp;Clarissen
+        &copy;&nbsp;{new Date().getFullYear()}&nbsp;DesignSparx
       </Text>
     </Group>
   );

@@ -37,8 +37,6 @@ export const PATH_APPS = {
   projects: path(ROOT_APPS, '/projects'),
   settings: path(ROOT_APPS, '/settings'),
   tasks: path(ROOT_APPS, '/tasks'),
-  // add new
-  manageUser: path(ROOT_APPS, '/manage-user'),
 };
 
 export const PATH_PAGES = {

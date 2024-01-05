@@ -1,8 +1,8 @@
-import {useEffect, useState} from 'react';
-import {Box, Collapse, Group, Text, UnstyledButton,} from '@mantine/core';
-import {IconChevronRight} from '@tabler/icons-react';
+import { useEffect, useState } from 'react';
+import { Box, Collapse, Group, Text, UnstyledButton } from '@mantine/core';
+import { IconChevronRight } from '@tabler/icons-react';
 import Link from 'next/link';
-import {usePathname, useRouter} from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import * as _ from 'lodash';
 import classes from './Links.module.css';
 
@@ -18,13 +18,7 @@ interface LinksGroupProps {
 }
 
 export function LinksGroup(props: LinksGroupProps) {
-  const {
-    icon: Icon,
-    label,
-    initiallyOpened,
-    link,
-    links,
-  } = props;
+  const { icon: Icon, label, initiallyOpened, link, links } = props;
   const router = useRouter();
   const pathname = usePathname();
   const hasLinks = Array.isArray(links);
@@ -50,19 +44,23 @@ export function LinksGroup(props: LinksGroupProps) {
     setCurrentPath(_.last(paths)?.toLowerCase() || undefined);
   }, [pathname, label]);
 
+  console.log(pathname === link ? true : false);
+
   return (
     <>
       <UnstyledButton
         onClick={() => {
+          // setOpened((o) => !o);
           setOpened((o) => !o);
           link && router.push(link || '#');
         }}
         className={classes.control}
-        data-active={opened || undefined}
+        // data-active={opened || undefined}
+        data-active={pathname === link?.toLocaleLowerCase() ? true : undefined}
       >
         <Group justify="space-between" gap={0}>
-          <Box style={{display: 'flex', alignItems: 'center'}}>
-            <Icon size={18}/>
+          <Box style={{ display: 'flex', alignItems: 'center' }}>
+            <Icon size={18} />
             <Box ml="md">{label}</Box>
           </Box>
           {hasLinks && (

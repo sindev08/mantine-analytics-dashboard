@@ -84,7 +84,7 @@ function Profile() {
   return (
     <>
       <>
-        <title>Profile | DesignSparx</title>
+        <title>Profile | Clarissen</title>
         <meta
           name="description"
           content="Explore our versatile dashboard website template featuring a stunning array of themes and meticulously crafted components. Elevate your web project with seamless integration, customizable themes, and a rich variety of components for a dynamic user experience. Effortlessly bring your data to life with our intuitive dashboard template, designed to streamline development and captivate users. Discover endless possibilities in design and functionality today!"
@@ -135,7 +135,7 @@ function Profile() {
                     </Text>
                     <UnstyledButton
                       component="a"
-                      href="https://www.facebook.com/kelvinkk96"
+                      href="https://www.facebook.com/"
                       {...linkProps}
                     >
                       <Group>
@@ -145,7 +145,7 @@ function Profile() {
                     </UnstyledButton>
                     <UnstyledButton
                       component="a"
-                      href="https://twitter.com/kelvink_96"
+                      href="https://twitter.com/"
                       {...linkProps}
                     >
                       <Group>
@@ -155,7 +155,7 @@ function Profile() {
                     </UnstyledButton>
                     <UnstyledButton
                       component="a"
-                      href="https://www.linkedin.com/in/kelvink96/"
+                      href="https://www.linkedin.com/in/"
                       {...linkProps}
                     >
                       <Group>
@@ -165,7 +165,7 @@ function Profile() {
                     </UnstyledButton>
                     <UnstyledButton
                       component="a"
-                      href="https://github.com/kelvink96"
+                      href="https://github.com/"
                       {...linkProps}
                     >
                       <Group>

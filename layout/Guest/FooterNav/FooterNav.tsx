@@ -69,18 +69,18 @@ const FooterNav = () => {
         >
           <Logo c="white" />
           <Group gap="xs" justify="flex-end" wrap="nowrap">
-            <ActionIcon
+            {/* <ActionIcon
               component="a"
               href="https://kelvinkiprop.netlify.app/"
               target="_blank"
               {...ACTION_ICON_PROPS}
             >
               <IconWorld size={ICON_SIZE} />
-            </ActionIcon>
+            </ActionIcon> */}
             <ActionIcon
               size="lg"
               component="a"
-              href="https://github.com/kelvink96"
+              href="https://github.com/"
               target="_blank"
               {...ACTION_ICON_PROPS}
             >
@@ -89,7 +89,7 @@ const FooterNav = () => {
             <ActionIcon
               size="lg"
               component="a"
-              href="https://twitter.com/kelvink_96"
+              href="https://twitter.com/"
               target="_blank"
               {...ACTION_ICON_PROPS}
             >
@@ -98,7 +98,7 @@ const FooterNav = () => {
             <ActionIcon
               size="lg"
               component="a"
-              href="https://www.linkedin.com/in/kelvink96/"
+              href="https://www.linkedin.com/in/"
               target="_blank"
               {...ACTION_ICON_PROPS}
             >
@@ -107,7 +107,7 @@ const FooterNav = () => {
             <ActionIcon
               size="lg"
               component="a"
-              href="https://www.facebook.com/kelvinkk96"
+              href="https://www.facebook.com/"
               target="_blank"
               {...ACTION_ICON_PROPS}
             >
@@ -116,7 +116,7 @@ const FooterNav = () => {
             <ActionIcon
               size="lg"
               component="a"
-              href="https://www.instagram.com/kelvink_96/"
+              href="https://www.instagram.com/"
               target="_blank"
               {...ACTION_ICON_PROPS}
             >

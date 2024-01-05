@@ -293,7 +293,7 @@ const HeaderNav = (props: HeaderNavProps) => {
             <IconSearch size={ICON_SIZE} />
           </ActionIcon>
         )}
-        <LanguagePicker type="collapsed" />
+        {/* <LanguagePicker type="collapsed" /> */}
         <Menu shadow="lg" width={320}>
           <Menu.Target>
             <Indicator processing size={10} offset={6}>

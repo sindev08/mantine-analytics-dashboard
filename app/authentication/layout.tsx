@@ -21,15 +21,15 @@ function AuthLayout({ children }: AuthProps) {
       }}
     >
       <Stack>
-        <Center>
+        {/* <Center>
           <Image
-            src="/logo-no-background.png"
-            alt="DesignSparx logo"
+            src="/logo.png"
+            alt="Clarissen logo"
             width={96}
             height={96}
             style={{ objectFit: 'contain' }}
           />
-        </Center>
+        </Center> */}
         {children}
       </Stack>
     </Center>
